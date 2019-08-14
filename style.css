@@ -1,0 +1,26 @@
+#user {
+	width: 200px;
+}
+
+#email {
+	width: 200px;
+}
+
+#comment{
+	width: 400px;
+}
+
+.navbar-nav {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.form-group{
+	margin-bottom: 100%;
+	width: 50%;
+	float: left;
+}
+
+.input{
+	width: 500px;
+}
