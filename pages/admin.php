@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 		$auth = new Admin($login,$password);
 		if ($auth->validate()){
 			$_SESSION['admin'] = 1;
-			header('Location: /');
+			header('Location: http://webster.zzz.com.ua/');
 			} else echo "Неправильный логин или пароль";
 		} 
 }
